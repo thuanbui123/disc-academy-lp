@@ -1,0 +1,641 @@
+/* ==========================================================
+   Hero
+========================================================== */
+
+.hero {
+    padding: 72px 0;
+    overflow: hidden;
+    background: var(--color-white);
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72px;
+}
+
+/* ==========================================================
+   Left
+========================================================== */
+
+.hero__content {
+    flex: 0 0 46%;
+}
+
+.hero__title {
+    display: block;
+    margin: 0;
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+
+.hero__title--red {
+    color: var(--color-primary);
+}
+
+.hero__title--blue {
+    color: var(--color-secondary);
+}
+
+.hero__title--red,
+.hero__title--blue {
+    display: block;
+}
+
+.hero__title--blue {
+    margin-top: var(--space-md);
+    color: var(--color-secondary);
+}
+
+.hero__subtitle {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-heading);
+}
+
+.hero__description {
+    max-width: 520px;
+    margin-bottom: 36px;
+    color: var(--color-text-light);
+    line-height: 1.8;
+}
+
+/* ==========================================================
+   Features
+========================================================== */
+
+.hero__features {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin-bottom: 36px;
+
+}
+
+.hero-feature {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+.hero-feature__icon {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    color: white;
+
+    font-size: 18px;
+
+    flex-shrink: 0;
+
+}
+
+.hero-feature__icon--red {
+
+    background: #ef4444;
+
+}
+
+.hero-feature__icon--yellow {
+
+    background: #fbbf24;
+
+}
+
+.hero-feature__icon--blue {
+
+    background: #2563eb;
+
+}
+
+.hero-feature__icon--green {
+
+    background: #22c55e;
+
+}
+
+.hero-feature__text {
+
+    font-weight: 600;
+
+    color: #374151;
+
+}
+
+/* ==========================================================
+   Button
+========================================================== */
+
+.hero__actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.hero__note {
+
+    color: var(--color-text-light);
+
+    font-size: .95rem;
+
+}
+
+/* ==========================================================
+   Right
+========================================================== */
+
+.hero__media {
+
+    position: relative;
+
+    flex: 1;
+
+    min-height: 520px;
+
+}
+
+.hero__background {
+
+    position: absolute;
+
+    inset: 0;
+
+}
+
+/* ==========================================================
+   DISC Blocks
+========================================================== */
+
+.hero__shape {
+
+    position: absolute;
+
+    width: 170px;
+
+    height: 220px;
+
+    border-radius: 42px;
+
+}
+
+.hero__shape--red {
+
+    left: 20px;
+
+    top: 20px;
+
+    background: #ef4444;
+
+}
+
+.hero__shape--yellow {
+
+    left: 160px;
+
+    top: 20px;
+
+    background: #fbbf24;
+
+}
+
+.hero__shape--green {
+
+    left: 300px;
+
+    top: 20px;
+
+    background: #22c55e;
+
+}
+
+.hero__shape--blue {
+
+    right: 0;
+
+    top: 20px;
+
+    background: #2563eb;
+
+}
+
+/* ==========================================================
+   Hero Image
+========================================================== */
+
+.hero__image {
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 100%;
+
+    max-width: 720px;
+
+    z-index: 2;
+
+}
+
+/* ==========================================================
+   Tablet
+========================================================== */
+
+@media (max-width:1024px) {
+
+    .hero {
+
+        padding: 56px 0;
+
+    }
+
+    .hero__wrapper {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 48px;
+
+    }
+
+    .hero__content {
+
+        flex: none;
+
+        max-width: 700px;
+
+    }
+
+    .hero__description {
+
+        margin-inline: auto;
+
+    }
+
+    .hero__features {
+
+        max-width: 520px;
+
+        margin-inline: auto;
+
+    }
+
+    .hero__actions {
+
+        justify-content: center;
+
+    }
+
+    .hero__media {
+
+        width: 100%;
+
+        min-height: 420px;
+
+    }
+
+}
+
+/* ==========================================================
+   Mobile
+========================================================== */
+
+@media (max-width:768px) {
+
+    .hero {
+
+        padding: 40px 0;
+
+    }
+
+    .hero__title {
+
+        font-size: 2.8rem;
+
+    }
+
+    .hero__subtitle {
+
+        font-size: 1.5rem;
+
+    }
+
+    .hero__features {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .hero__actions {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+    .hero__media {
+
+        min-height: 300px;
+
+    }
+
+    .hero__shape {
+
+        width: 85px;
+
+        height: 120px;
+
+        border-radius: 22px;
+
+    }
+
+    .hero__shape--red {
+
+        left: 0;
+
+    }
+
+    .hero__shape--yellow {
+
+        left: 75px;
+
+    }
+
+    .hero__shape--green {
+
+        left: 150px;
+
+    }
+
+    .hero__shape--blue {
+
+        right: 0;
+
+    }
+
+}
+
+/* ==========================================================
+   Large Desktop (>= 1400px)
+========================================================== */
+
+@media (min-width: 1400px) {
+    .hero {
+        padding: 90px 0;
+    }
+
+    .hero__wrapper {
+        gap: 80px;
+    }
+
+    .hero__title {
+        font-size: 4.75rem;
+    }
+
+    .hero__media {
+        min-height: 600px;
+    }
+
+    .hero__image {
+        max-width: 760px;
+    }
+}
+
+/* ==========================================================
+   Laptop (992px - 1199px)
+========================================================== */
+
+@media (max-width: 1199px) {
+    .hero__wrapper {
+        gap: 48px;
+    }
+
+    .hero__content {
+        flex-basis: 48%;
+    }
+
+    .hero__title {
+        font-size: 3.75rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.75rem;
+    }
+
+    .hero__media {
+        min-height: 450px;
+    }
+
+    .hero__shape {
+        width: 140px;
+        height: 180px;
+    }
+
+    .hero__shape--yellow {
+        left: 130px;
+    }
+
+    .hero__shape--green {
+        left: 260px;
+    }
+}
+
+/* ==========================================================
+   Tablet (768px - 991px)
+========================================================== */
+
+@media (max-width: 991px) {
+    .hero {
+        padding: 56px 0;
+    }
+
+    .hero__wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 48px;
+    }
+
+    .hero__content {
+        flex: 1 1 100%;
+        max-width: 700px;
+    }
+
+    .hero__description {
+        margin-inline: auto;
+    }
+
+    .hero__features {
+        max-width: 520px;
+        margin: 0 auto 36px;
+    }
+
+    .hero__actions {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero__media {
+        width: 100%;
+        min-height: 420px;
+    }
+
+    .hero__image {
+        max-width: 560px;
+    }
+}
+
+/* ==========================================================
+   Mobile (576px - 767px)
+========================================================== */
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero__title {
+        font-size: 2.8rem;
+        letter-spacing: -1px;
+    }
+
+    .hero__subtitle {
+        font-size: 1.4rem;
+    }
+
+    .hero__description {
+        font-size: 0.95rem;
+    }
+
+    .hero__features {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .hero__actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+    }
+
+    .hero__actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero__note {
+        text-align: center;
+    }
+
+    .hero__media {
+        min-height: 280px;
+    }
+
+    .hero__image {
+        max-width: 100%;
+    }
+
+    .hero__shape {
+        width: 72px;
+        height: 96px;
+        border-radius: 20px;
+    }
+
+    .hero__shape--red {
+        left: 0;
+    }
+
+    .hero__shape--yellow {
+        left: 65px;
+    }
+
+    .hero__shape--green {
+        left: 130px;
+    }
+
+    .hero__shape--blue {
+        right: 0;
+    }
+}
+
+/* ==========================================================
+   Small Mobile (<576px)
+========================================================== */
+
+@media (max-width: 575px) {
+    .hero {
+        padding: 32px 0;
+    }
+
+    .hero__title {
+        font-size: 2.2rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .hero__description {
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
+
+    .hero-feature__icon {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    .hero-feature__text {
+        font-size: 0.95rem;
+    }
+
+    .hero__media {
+        min-height: 220px;
+    }
+
+    .hero__shape {
+        width: 56px;
+        height: 80px;
+        border-radius: 16px;
+    }
+
+    .hero__shape--yellow {
+        left: 52px;
+    }
+
+    .hero__shape--green {
+        left: 104px;
+    }
+}

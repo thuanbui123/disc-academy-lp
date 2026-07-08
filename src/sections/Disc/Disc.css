@@ -1,0 +1,233 @@
+/* ==========================================================
+   DISC SECTION
+========================================================== */
+
+.disc {
+    padding: 100px 0;
+    background: var(--color-background);
+}
+
+.disc__wrapper {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 80px;
+}
+
+/* ==========================================================
+   CONTENT
+========================================================== */
+
+.disc__content {
+    width: 100%;
+}
+
+.section-title {
+    margin-bottom: 24px;
+
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.2;
+
+    color: var(--color-heading);
+}
+
+.section-title span {
+    color: var(--color-primary);
+}
+
+.disc__description {
+    margin-bottom: 40px;
+
+    color: var(--color-text-light);
+
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* ==========================================================
+   DISC LIST
+========================================================== */
+
+.disc__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.disc-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.disc-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 58px;
+    height: 58px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    color: var(--color-white);
+
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.disc-item h3 {
+    margin-bottom: 8px;
+
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    color: var(--color-heading);
+}
+
+.disc-item p {
+    color: var(--color-text-light);
+    line-height: 1.7;
+}
+
+/* ==========================================================
+   DISC COLORS
+========================================================== */
+
+.disc-item--red {
+    background: var(--color-disc-d);
+}
+
+.disc-item--yellow {
+    background: var(--color-disc-i);
+}
+
+.disc-item--green {
+    background: var(--color-disc-s);
+}
+
+.disc-item--blue {
+    background: var(--color-disc-c);
+}
+
+/* ==========================================================
+   MEDIA
+========================================================== */
+
+.disc__media {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disc__image {
+    display: block;
+
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+}
+
+.disc__quote {
+    margin-top: 32px;
+
+    padding: 28px;
+
+    background: var(--color-white);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-md);
+}
+
+.disc__quote p {
+    margin: 0;
+
+    color: var(--color-text);
+
+    line-height: 1.8;
+
+    font-style: italic;
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 991px) {
+
+    .disc {
+        padding: 80px 0;
+    }
+
+    .disc__wrapper {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .disc__content {
+        order: 2;
+    }
+
+    .disc__media {
+        order: 1;
+    }
+
+    .disc__image {
+        max-width: 360px;
+    }
+
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 767px) {
+
+    .disc {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .disc__description {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .disc__list {
+        gap: 20px;
+    }
+
+    .disc-item {
+        gap: 14px;
+    }
+
+    .disc-item__icon {
+        width: 50px;
+        height: 50px;
+
+        font-size: 1.2rem;
+    }
+
+    .disc-item h3 {
+        font-size: 1rem;
+    }
+
+    .disc__image {
+        max-width: 300px;
+    }
+
+    .disc__quote {
+        padding: 20px;
+    }
+
+}

@@ -1,0 +1,25 @@
+@import "./base/reset.css";
+@import "./base/variables.css";
+@import "./base/typography.css";
+@import "./base/global.css";
+
+@import "./layout/container.css";
+@import "./layout/grid.css";
+@import "./layout/header.css";
+@import "./layout/footer.css";
+@import "./layout/section.css";
+
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/form.css";
+
+@import "../../sections/hero/hero.css";
+@import "../../sections/problem/problem.css";
+@import "../../sections/disc/disc.css";
+@import "../../sections/Benefits/Benefits.css";
+@import "../../sections/Course/Course.css";
+@import "../../sections/Testimonials/Testimonials.css";
+@import "../../sections/Register/Register.css";
+@import "../../sections/Footer/Footer.css";
+
+@import "./pages/home.css";

@@ -1,0 +1,340 @@
+/*==================================
+            REGISTER
+==================================*/
+
+.register {
+
+    padding: 90px 0;
+
+    background: #f7f9fc;
+
+}
+
+.register__wrapper {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    background: #fff;
+
+    border-radius: 24px;
+
+    overflow: hidden;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
+
+}
+
+/* LEFT */
+
+.course-info {
+
+    padding: 50px;
+
+    border-right: 1px solid #eee;
+
+}
+
+.course-info h2 {
+
+    font-size: 32px;
+
+    margin-bottom: 40px;
+
+}
+
+.info-list {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 28px;
+
+}
+
+.info-item {
+
+    display: flex;
+
+    gap: 16px;
+
+}
+
+.icon {
+
+    width: 52px;
+
+    height: 52px;
+
+    border-radius: 14px;
+
+    background: #eef4ff;
+
+    color: #0f4c81;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 22px;
+
+    flex-shrink: 0;
+
+}
+
+.info-item h4 {
+
+    margin-bottom: 6px;
+
+    font-size: 16px;
+
+}
+
+.info-item p {
+
+    color: #666;
+
+    line-height: 1.6;
+
+}
+
+.free {
+
+    color: #ef4444;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+}
+
+/* RIGHT */
+
+.register-action {
+
+    padding: 50px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.badge {
+
+    display: inline-block;
+
+    width: max-content;
+
+    padding: 8px 18px;
+
+    border-radius: 50px;
+
+    background: #fff3f3;
+
+    color: #ef4444;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+.register-action h2 {
+
+    font-size: 38px;
+
+    margin-bottom: 18px;
+
+    color: #0f172a;
+
+}
+
+.register-desc {
+
+    color: #666;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+
+}
+
+.register-benefits {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+
+    margin-bottom: 40px;
+
+}
+
+.register-benefits li {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    font-size: 16px;
+
+}
+
+.register-benefits i {
+
+    color: #22c55e;
+
+    font-size: 20px;
+
+}
+
+.register-btn {
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 18px;
+
+    font-size: 18px;
+
+}
+
+.register-action small {
+
+    margin-top: 20px;
+
+    color: #888;
+
+    text-align: center;
+
+}
+
+/*=========================
+        RESPONSIVE
+=========================*/
+
+@media(max-width:1200px) {
+
+    .course-info,
+    .register-action {
+
+        padding: 40px;
+
+    }
+
+}
+
+@media(max-width:992px) {
+
+    .register__wrapper {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .course-info {
+
+        border-right: none;
+
+        border-bottom: 1px solid #eee;
+
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .register {
+
+        padding: 60px 0;
+
+    }
+
+    .course-info,
+    .register-action {
+
+        padding: 28px;
+
+    }
+
+    .course-info h2,
+    .register-action h2 {
+
+        text-align: center;
+
+        font-size: 28px;
+
+    }
+
+    .badge {
+
+        margin: auto auto 20px;
+
+    }
+
+    .register-desc {
+
+        text-align: center;
+
+    }
+
+    .info-list {
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+    }
+
+    .register-benefits {
+
+        margin-bottom: 30px;
+
+    }
+
+}
+
+@media(max-width:576px) {
+
+    .register-action h2 {
+
+        font-size: 24px;
+
+    }
+
+    .course-info h2 {
+
+        font-size: 24px;
+
+    }
+
+    .icon {
+
+        width: 46px;
+
+        height: 46px;
+
+        font-size: 18px;
+
+    }
+
+    .register-btn {
+
+        font-size: 16px;
+
+        padding: 16px;
+
+    }
+
+}
