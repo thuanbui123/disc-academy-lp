@@ -16,6 +16,7 @@ import { Course } from "./sections/Course";
 import { Testimonials } from "./sections/Testimonials";
 import { Register } from "./sections/Register";
 import { Footer } from "./sections/Footer";
+import { MusicPlayer, initMusicPlayer } from "./components/MusicPlayer";
 
 import Swiper from "swiper";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
@@ -30,6 +31,7 @@ document.querySelector("#app").innerHTML = `
     ${Testimonials()}
     ${Register()}
     ${Footer()}
+    ${MusicPlayer()}
 `;
 
 initHeader();
@@ -83,3 +85,5 @@ new Swiper(".testimonialSwiper", {
     }
 
 });
+
+initMusicPlayer();

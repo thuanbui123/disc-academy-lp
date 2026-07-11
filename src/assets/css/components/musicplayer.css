@@ -1,0 +1,83 @@
+.music-btn {
+
+    position: fixed;
+
+    right: 25px;
+
+    bottom: 25px;
+
+    width: 60px;
+
+    height: 60px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #ef4444;
+
+    color: #fff;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    z-index: 9999;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+
+    transition: .3s;
+
+}
+
+.music-btn:hover {
+
+    transform: scale(1.08);
+
+}
+
+.music-btn.playing {
+
+    animation: musicRotate 5s linear infinite;
+
+}
+
+@keyframes musicRotate {
+
+    from {
+
+        transform: rotate(0deg);
+
+    }
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .music-btn {
+
+        width: 50px;
+
+        height: 50px;
+
+        bottom: 15px;
+
+        right: 15px;
+
+        font-size: 18px;
+
+    }
+
+}

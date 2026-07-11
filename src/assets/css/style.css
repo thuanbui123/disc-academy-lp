@@ -12,6 +12,7 @@
 @import "./components/button.css";
 @import "./components/card.css";
 @import "./components/form.css";
+@import "./components/musicplayer.css";
 
 @import "../../sections/hero/hero.css";
 @import "../../sections/problem/problem.css";
