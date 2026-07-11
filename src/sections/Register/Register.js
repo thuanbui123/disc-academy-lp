@@ -26,7 +26,7 @@ export function Register() {
 
                             <h4>Thời gian</h4>
 
-                            <p>19:30 - 21:30</p>
+                            <p>19h - 21h30 <br/> Thứ 4 & Thứ 6</p>
 
                         </div>
 
@@ -42,7 +42,7 @@ export function Register() {
 
                             <h4>Hình thức</h4>
 
-                            <p>Trực tiếp</p>
+                            <p>Offline</p>
 
                         </div>
 
@@ -58,7 +58,7 @@ export function Register() {
 
                             <h4>Đối tượng</h4>
 
-                            <p>Sinh viên • Người đi làm</p>
+                            <p>Sinh viên <br>Người đi làm</p>
 
                         </div>
 
@@ -87,13 +87,6 @@ export function Register() {
             <!-- RIGHT -->
 
             <div class="register-action">
-
-                <span class="badge">
-
-                    🎉 MIỄN PHÍ THAM GIA
-
-                </span>
-
                 <h2>
 
                     Đăng ký ngay hôm nay
@@ -145,7 +138,7 @@ export function Register() {
                 </ul>
 
                 <a
-                    href="https://forms.gle/cs7mj2wxfxkMDbYTA"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdh4J7nxx6RTbIhlorFiJXj4n-kd3zLoNPFq1BZ3LK8jbZp9Q/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="btn btn--primary register-btn">

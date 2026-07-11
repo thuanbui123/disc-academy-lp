@@ -13,40 +13,39 @@ export function Disc() {
                         </h2>
 
                         <p class="disc__description">
-                            DISC không đơn thuần là công cụ giải mã tính cách, đánh giá hành vi mà còn
-                            giúp bạn hiểu rõ bản thân, phong cách giao tiếp và cách làm việc 
-                            của mỗi người thông qua 4 nhóm tính cách chính.
+                            DISC là công cụ thấu hiểu tâm lý hành vi hàng đầu thế giới, giúp bạn bóc tách tính cách, 
+                            phong cách giao tiếp và cách làm việc của bất kỳ ai chỉ qua 4 nhóm điển hình.
                         </p>
 
                         <div class="disc__list">
 
                             ${DiscItem(
-                                "D",
-                                "disc-item--red",
-                                "Dominance - Thống trị",
-                                "Quyết đoán, mạnh mẽ, thích thử thách và kết quả."
-                            )}
+        "D",
+        "disc-item--red",
+        "Dominance - Thống trị",
+        "Quyết liệt, mạnh mẽ, tiên phong, tập trung vào mục tiêu và kết quả."
+    )}
 
                             ${DiscItem(
-                                "I",
-                                "disc-item--yellow",
-                                "Influence - Ảnh hưởng",
-                                "Hòa đồng, truyền cảm hứng, thích giao tiếp."
-                            )}
+        "I",
+        "disc-item--yellow",
+        "Influence - Ảnh hưởng",
+        "Hòa đồng, nhiệt huyết, sáng tạo, truyền cảm hứng và kết nối."
+    )}
 
                             ${DiscItem(
-                                "S",
-                                "disc-item--green",
-                                "Steadiness - Kiên định",
-                                "Điềm tĩnh, kiên nhẫn, đáng tin cậy."
-                            )}
+        "S",
+        "disc-item--green",
+        "Steadiness - Kiên định",
+        "Điềm tĩnh, kiên nhẫn, chân thành, sâu sắc và đáng tin cậy."
+    )}
 
                             ${DiscItem(
-                                "C",
-                                "disc-item--blue",
-                                "Conscientiousness - Tận tâm",
-                                "Chính xác, cẩn thận và logic."
-                            )}
+        "C",
+        "disc-item--blue",
+        "Conscientiousness - Tận tâm",
+        "Chính xác, kỷ luật, logic, cẩn trọng và hệ thống."
+    )}
 
                         </div>
 
@@ -55,7 +54,7 @@ export function Disc() {
                     <div class="disc__media">
 
                         <img
-                            src="/disc-wheel.png"
+                            src="/disc-wheel.jpg"
                             alt="DISC Wheel"
                             class="disc__image"
                         >
@@ -63,8 +62,8 @@ export function Disc() {
                         <div class="disc__quote">
 
                             <p>
-                                "Không có tính cách nào tốt hơn tính cách nào.
-                                Điều quan trọng là hiểu bản thân và hiểu người khác."
+                                "DISC không sinh ra để dán nhãn hay phán xét. <br/>
+                                Nó là chiếc gương để thấu hiểu chính mình, và là chiếc cầu để bao dung người khác."
                             </p>
 
                         </div>

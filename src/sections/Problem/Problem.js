@@ -11,8 +11,7 @@ export function Problem() {
                     </h2>
 
                     <p class="problem__description">
-                        DISC không chỉ giúp bạn hiểu bản thân mà còn giúp cải thiện
-                        giao tiếp, xây dựng các mối quan hệ và phát triển sự nghiệp.
+                        Trong công việc và cuộc sống, đôi khi chúng ta vô tình rơi vào những vòng lặp mệt mỏi mà không biết nguyên nhân cốt lõi bắt nguồn từ đâu. Hãy thử xem bạn có đang nhìn thấy chính mình trong những tình huống dưới đây không nhé?
                     </p>
 
                 </div>
@@ -21,26 +20,26 @@ export function Problem() {
 
                     ${ProblemCard(
                         "😔",
-                        "Khó giao tiếp",
-                        "Thường khó mở lời, không biết bắt đầu trò chuyện như thế nào, dễ xảy ra hiểu lầm, khó kết nối với đồng nghiệp và người thân."
+                        "Bất đồng ngôn ngữ",
+                        "Nói sếp không hiểu, đồng nghiệp không nghe, động tí là xảy ra xung đột, tranh cãi."
                     )}
 
                     ${ProblemCard(
                         "🤔",
-                        "Không hiểu bản thân",
-                        "Không biết điểm mạnh, điểm yếu và cách phát huy năng lực."
+                        "Mất định hướng bẩm sinh",
+                        "Làm việc tùy hứng, trì hoãn, không rõ thế mạnh thực sự của mình ở đâu để bứt phá thu nhập."
                     )}
 
                     ${ProblemCard(
                         "😥",
-                        "Làm việc thiếu hiệu quả",
-                        "Khó phối hợp trong nhóm và xử lý xung đột."
+                        "Tê liệt vì ôm đồm",
+                        "Nghiện công việc nhưng hiệu suất kém, hoặc làm việc theo cảm xúc dẫn đến cả thèm chóng chán."
                     )}
 
                     ${ProblemCard(
-                        "🚀",
-                        "Muốn phát triển",
-                        "Muốn nâng cao kỹ năng giao tiếp và phát triển bản thân."
+                        "⏳",
+                        "⁠Trì hoãn & Dậm chân tại chỗ⁠",
+                        "Bị kẹt trong vùng an toàn, nhiều ý tưởng nhưng hay trì hoãn, loay hoay mãi vẫn chưa thể bứt phá lên vị trí cao hơn."
                     )}
 
                 </div>

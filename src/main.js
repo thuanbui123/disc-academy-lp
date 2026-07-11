@@ -11,7 +11,7 @@ import { Header, initHeader } from "./components/Header.js";
 import { Hero } from "./sections/Hero";
 import { Problem } from "./sections/Problem";
 import { Disc } from "./sections/Disc/Disc";
-import { Benefits } from "./sections/Benefits";
+import { Benefits, initBenefits } from "./sections/Benefits/Benefits";
 import { Course } from "./sections/Course";
 import { Testimonials } from "./sections/Testimonials";
 import { Register } from "./sections/Register";
@@ -87,3 +87,5 @@ new Swiper(".testimonialSwiper", {
 });
 
 initMusicPlayer();
+
+initBenefits();

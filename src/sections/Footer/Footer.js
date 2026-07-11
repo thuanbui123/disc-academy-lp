@@ -14,7 +14,7 @@ export function Footer() {
 
                 <p class="footer-desc">
                     Hiểu mình - Hiểu người<br>
-                    Kết nối và phát triển bền vững.
+                    Kết nối yêu thương
                 </p>
 
             </div>
@@ -24,8 +24,19 @@ export function Footer() {
                 <h4>Kết nối</h4>
 
                 <div class="social">
+                    <a href="https://zalo.me/g/c6epbpdtpyncdobz7ttp"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Zalo"
+                        class="social-link">
 
-                    <a href="https://facebook.com/Tuoithanhxuan.TYT.org.vn"
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+                                alt="Zalo"
+                                width="22"
+                                height="22">
+                        </a>
+
+                    <a href="https://www.facebook.com/DISC.Academyvn"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Facebook">
@@ -39,14 +50,7 @@ export function Footer() {
                         <i class="fab fa-tiktok"></i>
                     </a>
 
-                    <a href="https://www.youtube.com/@tuoithanhxuan_org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="YouTube">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-
-                    <a href="mailto:tuoithanhxuan.org@gmail.com"
+                    <a href="mailto:discacademy.vn@gmail.com"
                     aria-label="Email">
                         <i class="fas fa-envelope"></i>
                     </a>
@@ -60,13 +64,13 @@ export function Footer() {
                 <h4>Liên hệ</h4>
 
                 <p>Email</p>
-                <a href="mailto:tuoithanhxuan.org@gmail.com" aria-label="Email">
-                    tuoithanhxuan.org@gmail.com
+                <a href="mailto:discacademy.vn@gmail.com" aria-label="Email">
+                    discacademy.vn@gmail.com
                 </a>
 
                 <p style="margin-top:15px;">Hotline</p>
-                <a href="tel:0123456789">
-                    0123 456 789
+                <a href="tel:0376262503">
+                    0376 262 503
                 </a>
 
             </div>

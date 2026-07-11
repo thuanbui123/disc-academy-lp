@@ -12,7 +12,6 @@ export function initMusicPlayer() {
 
     const playlist = [
         "/music/song1.mp3",
-        "/music/song2.mp3",
         "/music/song3.mp3",
         "/music/song4.mp3",
         "/music/song5.mp3",

@@ -35,24 +35,22 @@ function HeroContent() {
             </h1>
 
             <h2 class="hero__subtitle">
-                Giao tiếp hiệu quả cùng DISC
+                Kết nối yêu thương
             </h2>
 
             <p class="hero__description">
-                DISC Academy giúp bạn khám phá bản thân, thấu hiểu người khác
-                và ứng dụng DISC để phát triển các mối quan hệ,
-                công việc và cuộc sống tốt đẹp hơn.
+                Khóa học DISC thực chiến 2 ngày giúp bạn bẻ lái ngôn từ, đọc vị bất kỳ ai trong 60 giây đầu tiên và bứt phá hiệu suất công việc.
             </p>
 
             <div class="hero__features">
 
-                ${FeatureItem("red", "👤", "Hiểu bản thân")}
+                ${FeatureItem("red", "👁️", "Đọc vị người khác nhanh chóng")}
 
-                ${FeatureItem("yellow", "💡", "Hiểu người khác")}
+                ${FeatureItem("yellow", "⚡", "Kích hoạt thế mạnh bản thân⁠")}
 
-                ${FeatureItem("blue", "💬", "Giao tiếp hiệu quả")}
+                ${FeatureItem("blue", "💬", "Làm chủ giao tiếp & đàm phán⁠")}
 
-                ${FeatureItem("green", "🌱", "Phát triển bản thân")}
+                ${FeatureItem("green", "🤝", "Hóa giải xung đột trong các mối quan hệ")}
 
             </div>
 
@@ -66,7 +64,7 @@ function HeroContent() {
                 </a>
 
                 <span class="hero__note">
-                    Tham gia cộng đồng DISC ngay hôm nay!
+                    
                 </span>
 
             </div>
