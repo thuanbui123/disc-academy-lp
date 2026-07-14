@@ -182,6 +182,16 @@
         max-width: 360px;
     }
 
+    .disc__test-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .disc__test-btn {
+        width: 100%;
+        text-align: center;
+    }
+
 }
 
 /* ==========================================================
@@ -230,4 +240,89 @@
         padding: 20px;
     }
 
+    .disc__test-card {
+        margin: 28px 0 36px;
+        padding: 22px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .disc__test-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .disc__test-content p {
+        font-size: .95rem;
+    }
+
+    .disc__test-btn {
+        width: 100%;
+    }
+
+}
+
+/* ==========================================================
+   FREE DISC TEST
+========================================================== */
+
+.disc__test-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+
+    margin: 32px 0 40px;
+    padding: 26px 30px;
+
+    background: linear-gradient(135deg, #fff7ec, #fffdf7);
+
+    border: 1px solid rgba(255, 111, 0, .15);
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-sm);
+}
+
+.disc__test-content {
+    flex: 1;
+}
+
+.disc__test-badge {
+    display: inline-block;
+
+    margin-bottom: 12px;
+    padding: 6px 12px;
+
+    border-radius: 999px;
+
+    background: rgba(255, 111, 0, .12);
+
+    color: var(--color-primary);
+
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+.disc__test-content h3 {
+    margin-bottom: 12px;
+
+    font-size: 1.45rem;
+    font-weight: 700;
+
+    color: var(--color-heading);
+}
+
+.disc__test-content p {
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    line-height: 1.7;
+}
+
+.disc__test-btn {
+    flex-shrink: 0;
+
+    padding: 16px 26px;
+
+    white-space: nowrap;
 }
